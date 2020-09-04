@@ -689,9 +689,9 @@ def show_d2():
 
 
 if __name__ == "__main__":
-    bolt_url = "bolt://localhost:7687"
-    user = "neo4j"
-    password = "boi"
+    bolt_url = "(your bolt url"
+    user = "(your username)"
+    password = "(your password)"
     app = App(bolt_url, user, password)
     app.delete_all()
     show_uni()
